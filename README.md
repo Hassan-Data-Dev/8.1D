@@ -13,6 +13,7 @@ deployed Streamlit application.
 ```bash
 python -m venv .venv
 .venv/Scripts/python.exe -m pip install -r requirements.txt
+python -m streamlit run app.py
 ```
 
 Python 3.12 is assumed.
