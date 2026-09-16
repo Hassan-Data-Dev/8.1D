@@ -8,17 +8,6 @@ under cross-validation, prediction-failure analysis, a three-way benchmark of
 machine learning against a large language model and human judgement, and a
 deployed Streamlit application.
 
-## What is in this folder
-
-| Path | Purpose |
-|---|---|
-|
-| `schema.py` | **Single source of truth** for the dataset schema, suburbs and constants |
-| `features.py` | **Shared** data loading and feature engineering used by the notebook and the app |
-| `app.py` | Streamlit application (Part 6) |
-| `data/` | Collected dataset, suburb reference, Part 5 recording sheets |
-| `models/` | Serialised model written by the notebook |
-| `notebook/` | The  notebook |
 ## Setup
 
 ```bash
